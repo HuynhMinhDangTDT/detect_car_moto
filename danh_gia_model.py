@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 
-df = pd.read_csv('C:\\Users\\PC\\Desktop\\project_thay_linh\\local\\car_bike_detection\\car_bike_detection\\xml_to_textYolo\\yolov5\\runs\\train\\exp15\\results.csv')
+df = pd.read_csv('\\yolov5\\runs\\train\\exp15\\results.csv')
 
 # print(df['               epoch'])
 plt.figure(figsize=(10, 5))
