@@ -183,7 +183,10 @@ for testing the result.
 
 Or you can run file ```real_time_counting.py``` for testing this project.
 
-Video test ```https://drive.google.com/drive/folders/1SOsq2ZoOoF-NYz214G0gKAWB11KhKxkh```
+Link models train custom dataset : ```https://drive.google.com/file/d/1iSWVru9R5uSwUoxLGpcmIcR0zH_sneee/view?usp=sharing```
+You should using the file model "best.pt"
+
+Video test ```https://drive.google.com/drive/folders/1SOsq2ZoOoF-NYz214G0gKAWB11KhKxkh?usp=sharing```
 
 ```
 Reference
