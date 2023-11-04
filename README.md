@@ -5,6 +5,7 @@ B1:
   Create environment ```conda create -n vehicle_detection python=3.8```
 
 B2:
+  ```
   activate environment:  ```conda activate vehicle_detection```
   install pytorch : ```conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia```
   git clone https://github.com/ultralytics/yolov5.git
@@ -17,12 +18,14 @@ B2:
   pip install tqdm
   pip install matplotlib
   pip install seaborn
-
+  ```
 
 B3:
+  ```
   https://github.com/roxa-delphi/yolov5_test/blob/main/test.py
   cd (target-dirctory)
   python test.py
+  ```
 
 B4:
   test result:
@@ -161,10 +164,11 @@ for testing the result.
 
 Or you can run file ```real_time_counting.py``` for testing this project.
 
+```
 Reference
 https://github.com/ultralytics/yolov5
 https://github.com/ultralytics/yolov5/issues/388
 https://github.com/ultralytics/yolov5/issues/36
+```
 
-For more information please contact me
-Email: vndang00@gmail.com
+For more information please contact me via Email: ```vndang00@gmail.com```
