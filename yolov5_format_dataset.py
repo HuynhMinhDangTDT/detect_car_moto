@@ -11,8 +11,8 @@ raw_folder = "daytime-dataset\\daytime"
 train_folder = "mydata2\\images\\train"
 val_folder = "mydata2\\images\\valid"
 
-train_labels_folder = "C:\\Users\\PC\\Desktop\\project_thay_linh\\local\\car_bike_detection\\car_bike_detection\\xml_to_textYolo\\vehicle_vietnam\\mydata2\\labels\\train"
-val_labels_folder = "C:\\Users\\PC\\Desktop\\project_thay_linh\\local\\car_bike_detection\\car_bike_detection\\xml_to_textYolo\\vehicle_vietnam\\mydata2\\labels\\valid"
+train_labels_folder = "\\mydata2\\labels\\train"
+val_labels_folder = "\\mydata2\\labels\\valid"
 
 
 # print(f"Danh sách các file ảnh trong thư mục '{directory_path}':")
