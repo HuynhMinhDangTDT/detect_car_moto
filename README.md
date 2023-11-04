@@ -1,10 +1,10 @@
 #yolov5 setup
 
 Set up for computer has GPU
-B1:
+•B1:
   Create environment ```conda create -n vehicle_detection python=3.8```
 
-B2:
+•B2:
   ```
   activate environment:  ```conda activate vehicle_detection```
   install pytorch : ```conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia```
@@ -20,39 +20,40 @@ B2:
   pip install seaborn
   ```
 
-B3:
+•B3:
   ```
   https://github.com/roxa-delphi/yolov5_test/blob/main/test.py
   cd (target-dirctory)
   python test.py
   ```
 
-B4:
+•B4:
   test result:
   run in terminal ```python real_time_counting.py```
 
 
-Set up for computer only use CPU
+•Set up for computer only use CPU
 
-B1:
+•B1:
   Create environment ```conda create -n vehicle_detection python=3.7.16```
-B2:
+•B2:
   activate environment:  ```conda activate vehicle_detection```
   run in terminal 
   ```cd yolov5```
   ```git clone https://github.com/ultralytics/yolov5.git```
   ```pip install -r requirement.txt```
-B3:
+•B3:
   test result:
   run in terminal ```python real_time_counting.py```
 
-Warning must be change Path/model be for run ```real_time_counting.py```
+•Warning must be change Path/model be for run ```real_time_counting.py```
 --> model = torch.hub.load('path_to\\yolov5', 'custom', path='runs/train/exp15/weights/best.pt', source='local', force_reload=True)
 
-Train Custom data
-First create file dataset has validation and image
+•Train Custom data
+•First create file dataset has validation and image
 
-Format repare dataset for training of yolov5
+•Format repare dataset for training of yolov5
+```
 mydata
   ---images
     ---train (put file.jpg//png//...)
@@ -60,7 +61,7 @@ mydata
   ---labels
     ---train (put file.txt)
     ---valid  (put file.txt) (20% of dataset)
-
+```
 Labels is validation folder
 
 put folder mydata to yolov5 folder
