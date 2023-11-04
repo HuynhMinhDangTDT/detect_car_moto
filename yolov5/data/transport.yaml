@@ -1,0 +1,5 @@
+train: .\mydata\images\train
+val: .\mydata\images\valid
+
+nc: 4
+names: ['car','motorcycle','truck','bus']
