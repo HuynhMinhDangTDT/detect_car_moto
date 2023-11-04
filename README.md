@@ -35,17 +35,22 @@ Set up for computer has GPU
 •Set up for computer only use CPU
 
 •B1:
+  ```
   Create environment ```conda create -n vehicle_detection python=3.7.16```
+  ```
 •B2:
+  ```
   activate environment:  ```conda activate vehicle_detection```
   run in terminal 
-  ```cd yolov5```
-  ```git clone https://github.com/ultralytics/yolov5.git```
-  ```pip install -r requirement.txt```
+  cd yolov5
+  git clone https://github.com/ultralytics/yolov5.git
+  pip install -r requirement.txt
+  ```
 •B3:
+  ```
   test result:
   run in terminal ```python real_time_counting.py```
-
+  ```
 •Warning must be change Path/model be for run ```real_time_counting.py```
 --> model = torch.hub.load('path_to\\yolov5', 'custom', path='runs/train/exp15/weights/best.pt', source='local', force_reload=True)
 
