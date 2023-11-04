@@ -78,13 +78,13 @@ Auto seperate file from dataset folder to train and validation
 Run ```yolov5_format_dataset.py```
 
 Create file data train.yaml
-
+```
 train: C:\Users\PC\Desktop\local\car_bike_detection\car_bike_detection\xml_to_textYolo\yolov5\mydata\images\train
 val: C:\Users\PC\Desktop\local\car_bike_detection\car_bike_detection\xml_to_textYolo\yolov5\mydata\images\valid
 
 nc: 4
 names: ['car','motorcycle','truck','bus']
-
+```
 put to yolov5/data
 
 config file model pretrain (Ex: yolov5x.yml)
