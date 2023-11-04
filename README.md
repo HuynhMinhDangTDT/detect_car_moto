@@ -59,6 +59,9 @@ Set up for computer has GPU
 
 •Format repare dataset for training of yolov5
 ```
+Link dataset: https://www.kaggle.com/datasets/duongtran1909/vietnamese-vehicles-dataset
+```
+```
 mydata
   ---images
     ---train (put file.jpg//png//...)
@@ -169,6 +172,8 @@ python detect.py --weights yolov5s.pt --source 0                               #
 for testing the result.
 
 Or you can run file ```real_time_counting.py``` for testing this project.
+
+Video test ```https://drive.google.com/drive/folders/1SOsq2ZoOoF-NYz214G0gKAWB11KhKxkh```
 
 ```
 Reference
