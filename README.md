@@ -19,6 +19,16 @@ Set up for computer has GPU
   pip install matplotlib
   pip install seaborn
   ```
+  Warning 
+  You must be choose the correct cuda and cudnn suport suitable with your GPU 
+  ```
+  This link can help your know what is your GPU compute capability
+  http://mylifeismymessage.net/find-the-compute-capability-of-your-nvidia-graphics-card-gpu/
+  https://developer.nvidia.com/cuda-gpus
+  ```
+  ```
+  Run the ```nvidia-smi``` command in the terminal to check the status connect cuda and cudnn with your GPU
+  ```
 
 •B3:
   ```
