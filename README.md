@@ -183,12 +183,14 @@ for testing the result.
 
 Or you can run file ```real_time_counting.py``` for testing this project.
 
-Link models train custom dataset : ```https://drive.google.com/file/d/1iSWVru9R5uSwUoxLGpcmIcR0zH_sneee/view?usp=sharing```
+Link models train custom dataset
+```
+https://drive.google.com/file/d/1iSWVru9R5uSwUoxLGpcmIcR0zH_sneee/view?usp=sharing
+```
 You should using the file model "best.pt"
 
 Video test ```https://drive.google.com/drive/folders/1SOsq2ZoOoF-NYz214G0gKAWB11KhKxkh?usp=sharing```
 
-```
 Reference
 https://github.com/ultralytics/yolov5
 https://github.com/ultralytics/yolov5/issues/388
