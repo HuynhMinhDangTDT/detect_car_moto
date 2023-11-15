@@ -46,7 +46,7 @@ Set up for computer has GPU
 
 •B1:
   ```
-  Create environment ```conda create -n vehicle_detection python=3.7.16```
+  Create environment ```conda create -n vehicle_detection python=3.8```
   ```
 •B2:
   ```

@@ -2,7 +2,7 @@ import torch
 from matplotlib import pyplot as plt
 import numpy as np
 import cv2
-from PIL import ImageGrab
+from PIL import ImageGrab, Image
 import time
 
 
@@ -57,8 +57,10 @@ while cap.isOpened():
     fps_text="FPS: {:.2f}ms".format(fps)
     frame = cv2.resize(frame,(600,500))
     # cv2.line(frame, (79,cy1),(599,cy1), (0,0,255), 2)
-    
-    results = model(frame)
+    converted = cv2.cvtColor(frame, cv2. COLOR_BGR2RGB)
+    converted = Image.fromarray(converted)
+    results = model(converted)
+    # results = model(frame)
     # a= results.pandas().xyxy[0].sort_values('xmin')  # sorted left-right
     # print(results.pandas().xyxy[0])
     for index,row in results.pandas().xyxy[0].iterrows():
